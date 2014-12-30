@@ -1,0 +1,173 @@
+body
+{
+		background:#F5F5F5;
+
+}
+footer
+{
+	background: linear-gradient(rgb(42, 42, 42),rgb(0, 0, 0));
+	box-shadow: 0px 0px 5px black;
+	height:94px;
+}
+header
+{
+	background: linear-gradient(rgb(0, 0, 0), rgb(42, 42, 42));
+	overflow:hidden;
+	box-shadow: 0px 0px 5px black;
+}
+header a
+{
+	color: white;
+}
+header figure
+{
+	width: 80px;
+	height: 80px;
+	margin: 0 0 0.5em 0em;
+	padding: 10px 0 0 10px;
+}
+header figure , header nav
+{
+	display: inline-block;
+}
+header figure img
+{
+	height:100%;
+	border-bottom-right-radius: 500px;
+	border-bottom-left-radius: 500px;
+	box-shadow: 0px 0px 5px black;
+}
+header nav
+{
+	vertical-align: middle;
+	float: right;
+	position: relative;
+	height: 94px;
+}
+header ul 
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 3em 0 2em;
+}
+header ul li
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+header ul li a
+{
+	background: linear-gradient(#7D0000, #890000);
+	display: inline-block;
+	padding:1em 3em;
+	border-radius: 2px;
+	box-shadow: 0px 0px 5px black;
+	text-shadow: 0px 0px 5px black;
+}
+html
+{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	height: 100%;
+}
+html a 
+{
+	text-decoration: none;
+}
+html ul 
+{
+	list-style: none;
+}
+
+.main
+{
+	margin: 0em auto;
+	padding:2em;
+	height:100%;
+}
+.main article
+{
+	width:75%;
+}
+.main figure
+{
+	height: 240px;
+}
+.main figure, .informacion 
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.main figure img
+{
+	height: 100%;
+}
+.main h1
+{
+	text-align: center;
+	text-shadow: 0px 0px 3px black;
+}
+.informacionArt
+{
+	background:white;
+	box-shadow: 0px 0px 10px #DBDBDB;
+	padding:1em 2em;
+	margin: auto;
+}
+/*font*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('font/fonts/icomoon.eot?-zgfzg1');
+	src:url('font/fonts/icomoon.eot?#iefix-zgfzg1') format('embedded-opentype'),
+		url('font/fonts/icomoon.woff?-zgfzg1') format('woff'),
+		url('font/fonts/icomoon.ttf?-zgfzg1') format('truetype'),
+		url('font/fonts/icomoon.svg?-zgfzg1#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fbk:before {
+	content: "\e602";
+	color:white;
+	background:black;
+}
+
+.icon-twt:before {
+	content: "\e600";
+	color:white;
+	background:black;
+}
+
+.icon-git:before {
+	content: "\e601";
+	color:white;
+	background:black;
+}
+#facebook, #twitter, #github
+{
+	height:60px;
+	width:60px;
+
+}
+footer ul li
+{
+	display: inline-block;
+	vertical-align: top;
+	
+}
